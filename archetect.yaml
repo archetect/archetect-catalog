@@ -14,3 +14,9 @@ catalog:
       gitignore:
         description: "Generate a .gitignore file"
         source: "https://github.com/archetect-common/dot-gitignore-archetype.git"
+      starters:
+        description: "Archetype, catalog, library, and component starters"
+        catalog:
+          archetype-starter:
+            description: "Scaffold a new Archetect 3 archetype"
+            source: "https://github.com/archetect-common/archetype-starter-archetype.git"
