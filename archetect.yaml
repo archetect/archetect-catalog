@@ -1,0 +1,16 @@
+---
+description: "Archetect Master Catalog"
+summary: "The top-level Archetect 3 catalog. Entry point for all archetypes, components, libraries, and nested catalogs."
+authors: ["Jimmie Fulton <jimmie.fulton@gmail.com>"]
+tags: ["catalog"]
+
+requires:
+  archetect: "3.0.0"
+
+catalog:
+  common:
+    description: "Common / Utility"
+    catalog:
+      gitignore:
+        description: "Generate a .gitignore file"
+        source: "https://github.com/archetect-common/dot-gitignore-archetype.git"
