@@ -20,3 +20,27 @@ catalog:
           archetype-starter:
             description: "Scaffold a new Archetect archetype"
             source: "https://github.com/archetect-common/archetype-starter-archetype.git"
+          catalog-starter:
+            description: "Scaffold a new Archetect catalog"
+            source: "https://github.com/archetect-common/catalog-starter-archetype.git"
+          library-starter:
+            description: "Scaffold a new Archetect library"
+            source: "https://github.com/archetect-common/library-starter-archetype.git"
+          component-starter:
+            description: "Scaffold a new Archetect component"
+            source: "https://github.com/archetect-common/component-starter-archetype.git"
+      components:
+        description: "Reusable prompt components"
+        catalog:
+          org-prompts:
+            description: "Organization and solution name prompts"
+            source: "https://github.com/archetect-common/org-prompts-component.git"
+          project-prompts:
+            description: "Project name prompts (prefix + suffix)"
+            source: "https://github.com/archetect-common/project-prompts-component.git"
+          author-prompts:
+            description: "Author and license prompts"
+            source: "https://github.com/archetect-common/author-prompts-component.git"
+          github-prompts:
+            description: "GitHub repository prompts"
+            source: "https://github.com/archetect-common/github-prompts-component.git"
