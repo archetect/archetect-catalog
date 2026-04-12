@@ -1,6 +1,6 @@
 ---
 description: "Archetect Master Catalog"
-summary: "The top-level Archetect 3 catalog. Entry point for all archetypes, components, libraries, and nested catalogs."
+summary: "The top-level Archetect catalog. Entry point for all archetypes, components, libraries, and nested catalogs."
 authors: ["Jimmie Fulton <jimmie.fulton@gmail.com>"]
 tags: ["catalog"]
 
@@ -18,5 +18,5 @@ catalog:
         description: "Archetype, catalog, library, and component starters"
         catalog:
           archetype-starter:
-            description: "Scaffold a new Archetect 3 archetype"
+            description: "Scaffold a new Archetect archetype"
             source: "https://github.com/archetect-common/archetype-starter-archetype.git"
