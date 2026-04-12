@@ -31,6 +31,7 @@ catalog:
             source: "https://github.com/archetect-common/component-starter-archetype.git"
       components:
         description: "Reusable prompt components"
+        show: false
         catalog:
           org-prompts:
             description: "Organization and solution name prompts"
