@@ -8,6 +8,9 @@ requires:
   archetect: "3.0.0"
 
 catalog:
+  rust:
+    description: "Rust Ecosystem"
+    source: "https://github.com/archetect-rust/rust-catalog.git"
   common:
     description: "Common / Utility"
     catalog:
@@ -45,6 +48,3 @@ catalog:
           github-prompts:
             description: "GitHub repository prompts"
             source: "https://github.com/archetect-common/github-prompts-component.git"
-  rust:
-    description: "Rust ecosystem (archetypes, components, libraries)"
-    source: "https://github.com/archetect-rust/rust-catalog.git"
