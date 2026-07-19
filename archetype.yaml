@@ -16,7 +16,7 @@ catalog:
     catalog:
       gitignore:
         description: "Generate a .gitignore file"
-        source: "https://github.com/archetect-common/dot-gitignore-archetype.git"
+        source: "https://github.com/archetect-common/gitignore-library.git"
       starters:
         description: "Archetype, catalog, library, and component starters"
         catalog:
@@ -27,24 +27,33 @@ catalog:
             description: "Scaffold a new Archetect catalog"
             source: "https://github.com/archetect-common/catalog-starter-archetype.git"
           library-starter:
-            description: "Scaffold a new Archetect library"
+            description: "Scaffold a new Archetect library (prompts, content, context return, lib exports, include exports — any combination)"
             source: "https://github.com/archetect-common/library-starter-archetype.git"
-          component-starter:
-            description: "Scaffold a new Archetect component"
-            source: "https://github.com/archetect-common/component-starter-archetype.git"
       components:
         description: "Reusable prompt components"
         show: false
         catalog:
           org-prompts:
             description: "Organization and solution name prompts"
-            source: "https://github.com/archetect-common/org-prompts-component.git"
+            source: "https://github.com/archetect-common/org-prompts-library.git"
           project-prompts:
             description: "Project name prompts (prefix + suffix)"
-            source: "https://github.com/archetect-common/project-prompts-component.git"
+            source: "https://github.com/archetect-common/project-prompts-library.git"
           author-prompts:
             description: "Author and license prompts"
-            source: "https://github.com/archetect-common/author-prompts-component.git"
-          github-prompts:
-            description: "GitHub repository prompts"
-            source: "https://github.com/archetect-common/github-prompts-component.git"
+            source: "https://github.com/archetect-common/author-prompts-library.git"
+          scm:
+            description: "Source-control prompts, init, and optional publish"
+            source: "https://github.com/archetect-common/scm-library.git"
+          license:
+            description: "License selection and LICENSE file generation"
+            source: "https://github.com/archetect-common/license-library.git"
+          editor-config:
+            description: "Composable .editorconfig generator"
+            source: "https://github.com/archetect-common/editor-config-library.git"
+          ports:
+            description: "Caller-selected port registry and allocation"
+            source: "https://github.com/archetect-common/ports-library.git"
+          archive:
+            description: "Archive extraction and packaging helpers"
+            source: "https://github.com/archetect-common/archive-library.git"
